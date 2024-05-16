@@ -68,7 +68,7 @@ with st.container():
         new_image = img_sftp.resize((325, 150))
         st.image(new_image)
     with text_column:
-        st.subheader("Transfer Files from One server to Another ushing Pyspark SFTP protocol")
+        st.subheader("Transfer Files from One server to Another using Pyspark SFTP protocol")
         st.write(
             """
             The file will be moved to the destination server using the User credentials.
@@ -80,7 +80,7 @@ with st.container():
         new_image1 = img_etl.resize((325, 150))
         st.image(new_image1)
     with text_column:
-        st.subheader("Will be developing the ETL procedure according to client specifications")
+        st.subheader("Will be developing the ETL procedure according to client specifications")
         st.write(
             """
             First, data is extracted from a data source. Then it’s transformed into a relevant format. Finally, the data is loaded into a destination repository, such              as a data warehouse or a data mart.
