@@ -68,7 +68,7 @@ with st.container():
         new_image = img_sftp.resize((325, 150))
         st.image(new_image)
     with text_column:
-        st.subheader("Transfer Files from One server to Another ushing Pyspark SFTP protocol")
+        st.subheader("Transfer Files from One server to Another using Pyspark SFTP protocol")
         st.write(
             """
             The file will be moved to the destination server using the User credentials.
