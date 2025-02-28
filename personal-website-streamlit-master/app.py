@@ -34,7 +34,7 @@ with st.container():
     st.subheader("Hi, I am Shyam :wave:")
     st.title("A Data Engineer From India")
     st.write(
-        "I am passionate about finding ways to use Python,Pyspark,Mysql and AWS technologies to be more efficient and effective in business settings."
+        "I am passionate about finding ways to use Python,Pyspark,Sql and Azure technologies to be more efficient and effective in business settings."
     )
     st.write("[Learn More >](https://www.linkedin.com/in/shyam-kumar-870821171/)")
 
